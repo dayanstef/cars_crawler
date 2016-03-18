@@ -33,9 +33,9 @@ ITEM_PIPELINES = ['fatech_production.pipelines.MySQLPipeline', 'fatech_productio
 # production database info
 DATABASE_HOST = 'localhost'
 DATABASE_PORT = 3306
-DATABASE_NAME = 'spiderweb01'
+DATABASE_NAME = 'cardatabase'
 DATABASE_USER = 'root'
-DATABASE_PASSWORD = 'root'
+DATABASE_PASSWORD = 'password'
 
 # which spider should use WEBKIT
 #SELENIUM_DOWNLOADER =['autotrader_recon,']
